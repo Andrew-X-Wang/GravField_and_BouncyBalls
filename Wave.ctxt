@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=x\ y\ pt\ ht
+comment0.target=Wave(int,\ int,\ int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Wave\n\ \ \ \ \ \ -\ initializes\ variables,\ sets\ color\n
+comment1.params=x\ y\ ballSize\ ballVel\ pt\ c\ ca
+comment1.target=Wave(int,\ int,\ int,\ double,\ int,\ int,\ java.lang.Integer[])
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Wave,\ used\ by\ the\ BouncyBall\ class\ to\ create\ Waves\ as\ a\ result\ of\ wall-Ball\ collisions\n\ \ \ \ \ \ \ \ \ -\ initializes\ variables,\ sets\ color\n
+comment2.params=thisRect\ clockTimer
+comment2.target=java.awt.Rectangle\ waveAdjust(java.awt.Rectangle,\ int)
+comment2.text=\n\ waveAdjust\:\ this\ is\ pretty\ much\ responsible\ for\ creating\ the\ Wave.\ The\ Background/GravField\ loops\ through\ the\ Rectangles\ in\ the\ grid\ and\ this\ resizes\ them\ accordingly\ to\ make\ the\ Waves\n\ \n\ @param\ \ \ \ \ \ thisRect\ \ \ \ \ -\ each\ Rectangle\ that\ makes\ up\ the\ grid\n\ @param\ \ \ \ \ \ clockTimer\ \ \ -\ the\ current\ time,\ so\ the\ Wave\ knows\ where\ it\ should\ be\n\ @return\ \ \ \ \ the\ updated\ Rectangle\ back\ to\ the\ Background/GravField\ class\n
+comment3.params=thisRect\ clockTimer
+comment3.target=boolean\ onWave(java.awt.Rectangle,\ int)
+comment3.text=\n\ onWave\:\ this\ is\ for\ the\ purpose\ of\ changing\ the\ color\ of\ Rectangles\ on\ the\ Wave\ so\ they're\ actually\ visible\n\ @param\ \ \ \ \ \ thisRect\ \ \ \ \ -\ each\ Rectangle\ that\ makes\ up\ the\ grid\n\ @param\ \ \ \ \ \ clockTimer\ \ \ -\ the\ current\ time,\ so\ the\ Wave\ knows\ which\ Rectangles\ are\ a\ part\ of\ it\n\ @return\ \ \ \ \ boolean;\ whether\ or\ not\ a\ certain\ Rectangle\ is\ on\ a\ Wave\n
+numComments=4

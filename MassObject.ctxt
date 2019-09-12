@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=x\ y\ xDim\ yDim\ ht\ vx\ vy
+comment0.target=MassObject(int,\ int,\ int,\ int,\ int,\ double,\ double)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MassObject\n\ \ \ \ \ \ \ \ \ -\ initializes\ variables,\ sets\ color\n
+comment1.params=x\ y\ updateTime
+comment1.target=void\ update(int,\ int,\ int)
+comment1.text=\n\ Update\!\ does\ pretty\ much\ the\ same\ thing\ as\ the\ Wave\ update\ method,\ except\ I\ commented\ out\ most\ things\ b/c\ didn't\ want\ the\ grav\ simulator\ to\ be\ impeded\n\ \ \ \ \ \ \ \ -\ also\ tries\ to\ keep\ in\ check\ the\ unending\ collisions,\ although\ slightly\ unsuccessfully\ b/c\ things\ still\ collide\ really\ fast\ and\ don't\ "unstick"\ fast\ enough\n\ \n\ @param\ \ \ \ \ \ x\ \ \ \ \ \ \ x\ position\ of\ the\ mouse\n\ @param\ \ \ \ \ \ y\ \ \ \ \ \ \ y\ position\ of\ the\ mouse\n\ @param\ \ updateTime\ \ time\ of\ the\ Update\n\ @return\ \ \ none\n
+comment2.params=m\ c1\ time
+comment2.target=boolean\ collision(MassObject,\ boolean,\ int)
+comment2.text=\n\ collision\:\ does\ a\ collision,\ tries\ to\ have\ the\ "invincibility"\ thing\ after\ one\ collision\ to\ avoid\ Masses\ going\ into\ each\ other\ and\ going\ crazy\n\ \n\ @param\ \ \ \ \ \ m\ \ \ \ \ \ the\ Mass\ it\ may\ or\ may\ not\ be\ colliding\ with\n\ @param\ \ \ \ \ \ c\ \ \ \ \ \ weather\ or\ not\ the\ Mass\ is\ in\ its\ invincibility\ stage\n\ @param\ \ \ \ time\ \ \ \ \ current\ time\n\ @return\ \ collided\ \ whether\ or\ not\ it\ is\ not\ in\ the\ invincibility\ stage\ following\ a\ collision\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y\ xDim\ yDim\ pt\ ht
+comment0.target=BouncyBall(int,\ int,\ int,\ int,\ int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ BouncyBall\n\ \ \ \ \ \ \ \ \ -\ initializes\ variables\ with\ arbitrary\ constants,\ sets\ color\n
+comment1.params=x\ y\ updateTime
+comment1.target=Wave\ update(int,\ int,\ int)
+comment1.text=\n\ Update\!\ updating\ the\ bouncyBall\ whenever\ it's\ called,\ just\ deals\ with\ changes\ in\ acceleration\ and\ velocity\ and\ position\ based\ on\ mouse\ impacts,\ wall\ impacts,\ etc\n\ \n\ @param\ \ \ \ \ \ x\ \ \ \ \ \ \ \ x\ position\ of\ the\ mouse\n\ @param\ \ \ \ \ \ y\ \ \ \ \ \ \ \ y\ position\ of\ the\ mouse\n\ @param\ \ updateTime\ \ \ current\ Time\ of\ update\n\ @return\ Wave\:\ if\ a\ Wave\ is\ created\ as\ a\ result\ of\ a\ wall\ collision,\ a\ Wave\ is\ created\ and\ returned\n
+numComments=2
